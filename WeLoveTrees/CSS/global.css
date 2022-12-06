@@ -1,0 +1,60 @@
+@import url();
+
+
+
+*{
+    margin: 0; 
+    padding: 0;
+}
+
+
+html.body{
+    height: 100%; 
+    width: 100%;
+}
+
+/* Nav Bar */
+
+.TopNav{
+    background-color:blue;
+}
+
+.TopNav{
+    display: flex;
+    justify-content: right;
+}
+
+.TopNav ul li{
+    list-style: none;
+}
+
+.TopNav ul li a{
+    display: block;
+    padding: lem; 
+    color: black;
+    transition: .5s;
+}
+
+.TopNav ul li a:hover{
+    background-color: brown;
+    color:aliceblue;
+}
+
+main{
+    width: 100%;
+    max-width: 800px;
+    background-color: blanchedalmond;
+    margin: 0 auto; 
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    background-color: blue;
+}
+
+footer ul li a{
+    display: block;
+    padding: 10px;
+}
