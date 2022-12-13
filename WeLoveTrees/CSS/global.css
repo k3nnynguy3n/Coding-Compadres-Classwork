@@ -44,11 +44,14 @@ body{
 }
 
 .TopNav ul{
-    margin: 0;
-    padding: 0;
+    margin: 30px;
+    padding: 0px;
     list-style-type: none;
     display: flex;
     justify-content: space-evenly;
+    top: 0;
+    position: absolute;
+    width: 100%;
 }
 
 .TopNav li{
@@ -64,8 +67,7 @@ body{
 }
 
 .TopNav ul li a:hover{
-    background-color:rgb(198, 194, 194);
-    color:aliceblue;
+    opacity: 0.4;
 }
 
 
@@ -88,7 +90,7 @@ footer{
     display: flex;
     justify-content: center;
     list-style: none;
-    background-color: darkgreen;
+    background-color: green;
 }
 
 footer ul li a{
